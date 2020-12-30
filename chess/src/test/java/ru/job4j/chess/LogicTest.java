@@ -1,6 +1,5 @@
 package ru.job4j.chess;
 
-import org.junit.Ignore;
 import org.junit.Test;
 import ru.job4j.chess.firuges.Cell;
 import ru.job4j.chess.firuges.black.BishopBlack;
@@ -8,7 +7,6 @@ import ru.job4j.chess.firuges.black.KnightBlack;
 
 public class LogicTest {
 
-    @Ignore
     @Test(expected = FigureNotFoundException.class)
     public void whenThrowFigureNotFoundException()
             throws FigureNotFoundException, OccupiedCellException, ImpossibleMoveException {
